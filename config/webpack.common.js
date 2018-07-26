@@ -17,6 +17,6 @@ module.exports = {
       }] 
    },
    resolve: {
-      extensions: ['.jsx', '.sass']
+      extensions: ['.js', '.jsx']
    }
 }
