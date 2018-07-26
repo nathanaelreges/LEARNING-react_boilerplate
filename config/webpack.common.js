@@ -1,17 +1,10 @@
 const webpack = require('webpack')
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
    entry: './src/index.jsx',
    output: {
       filename: 'bundle.js',
-      path: __dirname + '/dist'
-   },
-   mode: 'production',
-   optimization: {
-      minimizer: [
-        new UglifyJsPlugin()
-      ],
+      path: __dirname + '/.././dist'
    },
    module: {
       rules: [{
@@ -24,10 +17,5 @@ module.exports = {
             }
          }]
       }] 
-   },
-   plugins: [
-      new webpack.DefinePlugin({
-         'process.env.NODE_ENV': JSON.stringify('production')
-      })
-   ]
+   }
 }
