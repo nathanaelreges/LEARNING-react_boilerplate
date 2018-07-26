@@ -7,7 +7,7 @@ module.exports = merge(common, {
    mode: 'production',
    optimization: {
       minimizer: [
-        new UglifyJsPlugin()
+        new UglifyJsPlugin() //WebPack uses it by default, but lets leave it heare
       ],
    },
    plugins: [
