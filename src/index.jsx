@@ -3,5 +3,5 @@ const ReactDOM =  require('react-dom')
 import Component from './component.jsx'
 
 
-ReactDOM.render(<Component val="12" />, document.querySelector('.app'))
+ReactDOM.render(<Component val="1128394789" />, document.querySelector('.app'))
 
