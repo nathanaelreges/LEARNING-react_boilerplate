@@ -1,5 +1,3 @@
-const webpack = require('webpack')
-
 module.exports = {
    entry: './src/index.jsx',
    output: {
@@ -17,5 +15,8 @@ module.exports = {
             }
          }]
       }] 
+   },
+   resolve: {
+      extensions: ['.jsx', '.sass']
    }
 }
