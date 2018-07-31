@@ -12,7 +12,7 @@ module.exports = {
             loader: 'babel-loader',
             options: {
                presets: ['react'],
-               plugin: ['transform-object-rest-spread']
+               plugins: ['transform-object-rest-spread']
             }
          }]
       }] 
